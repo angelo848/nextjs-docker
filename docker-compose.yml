@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  next-dev:
+    build:
+      context: .
+    container_name: next-app
+    image: next-app
+    tty: true
+    ports:
+      - "3000"
+  nginx:
+    build:
+      context: ./nginx
+    container_name: nginx
+    image: nginx-proxy
+    ports:
+      - "8000:80"
