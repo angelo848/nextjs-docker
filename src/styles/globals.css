@@ -3,8 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
+div#__next {
+  position: relative;
+  z-index: 1;
+}
+
 @layer components {
   div[data-testid=flowbite-navbar-collapse] ul {
     font-size: 1rem !important;
   }
+
+  nav.fixed div.justify-between {
+    justify-content: space-around;
+  }
+
 }

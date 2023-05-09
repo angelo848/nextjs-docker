@@ -10,13 +10,20 @@ module.exports = {
     colors: {
       'main': '#D98179',
       'secondary': '#D6B5A8',
-      'tertiary': '#91DEF9'
+      'tertiary': '#91DEF9',
+      'main-medium': '#ECC0BC'
     },
     fontFamily: {
       sans: ['Montserrat', 'Lumios-Marker', 'sans-serif'],
       main: ['Montserrat', 'sans-serif'],
-      secondary: ['Lumios-Marker']
+      secondary: ['Lumios-Marker'],
+      tertiary: ['Raleway']
     },
+    extend: {
+      spacing: {
+        '100': '28rem'
+      }
+    }
   },
   plugins: [
     require('flowbite/plugin')
