@@ -11,7 +11,8 @@ module.exports = {
       'main': '#D98179',
       'secondary': '#D6B5A8',
       'tertiary': '#91DEF9',
-      'main-medium': '#ECC0BC'
+      'main-medium': '#ECC0BC',
+      'title': '#149166'
     },
     fontFamily: {
       sans: ['Montserrat', 'Lumios-Marker', 'sans-serif'],

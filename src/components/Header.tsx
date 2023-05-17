@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <Navbar fluid className="fixed top-0 left-0 w-full !bg-main-medium !py-0">
-      <Navbar.Brand href="#" className="relative w-48 h-40 md:max-lg:h-32">
+      <Navbar.Brand href="#" className="relative w-48 h-40 md:max-lg:h-32 max-sm:h-32">
         <Image src="/logo.png" alt="" fill={true} style={{ objectFit: "contain" }} sizes="48rem" priority />
       </Navbar.Brand>
       <Navbar.Toggle />
