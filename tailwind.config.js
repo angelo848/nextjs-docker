@@ -8,11 +8,12 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'main': '#D98179',
-      'secondary': '#D6B5A8',
-      'tertiary': '#91DEF9',
-      'main-medium': '#ECC0BC',
-      'title': '#149166'
+      'p-yellow': '#F3E6AD',
+      'p-blue': '#BFD9DC',
+      'p-pink': '#F8D5E0',
+      'p-orange': '#F0D9BC',
+      'p-green': '#BCE7D6',
+      'p-purple': '#C6B0D5'
     },
     fontFamily: {
       sans: ['Montserrat', 'Lumios-Marker', 'sans-serif'],
@@ -22,7 +23,8 @@ module.exports = {
     },
     extend: {
       spacing: {
-        '100': '28rem'
+        '100': '28rem',
+        '200': '56rem'
       }
     }
   },

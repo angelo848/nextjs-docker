@@ -16,4 +16,12 @@ div#__next {
   nav.fixed div.justify-between {
     justify-content: space-around;
   }
+
+  div[data-testid="flowbite-card"] div.flex {
+    display: grid;
+  }
+
+  div[data-testid="flowbite-card"] img {
+    max-height: 180px;
+  }
 }
